@@ -1,10 +1,10 @@
-'use strict';
+//"use strict";
 
 Object.defineProperty(exports, '__esModule', {
   value: true
 });
 
-exports['default'] = function (kibana) {
+exports.default = function (kibana) {
   return new kibana.Plugin({
     uiExports: {
       visTypes: ['plugins/extended_metric_vis/extended_metric_vis']
@@ -14,4 +14,4 @@ exports['default'] = function (kibana) {
 };
 
 ;
-module.exports = exports['default'];
+module.exports = exports.default;

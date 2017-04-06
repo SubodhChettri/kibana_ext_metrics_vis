@@ -1,4 +1,4 @@
-import 'plugins/extended_metric_vis/extended_metric_vis.less';
+import 'plugins/extended_metric_vis/less/extended_metric_vis.less';
 import 'plugins/extended_metric_vis/extended_metric_vis_controller';
 import TemplateVisTypeTemplateVisTypeProvider from 'ui/template_vis_type/template_vis_type';
 import VisSchemasProvider from 'ui/vis/schemas';

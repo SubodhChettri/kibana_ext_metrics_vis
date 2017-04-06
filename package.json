@@ -3,6 +3,9 @@
   "version": "0.1.2",
   "description": "Add Font Color Option to existing Extended Metrics",
   "main": "index.js",
+  "kibana": {
+     "version": "5.0.1"
+   },
   "scripts": {
     "lint": "eslint",
     "start": "plugin-helpers start",

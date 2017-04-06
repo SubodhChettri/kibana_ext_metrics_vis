@@ -15,8 +15,8 @@ module.controller('KbnExtendedMetricVisController', function ($scope, Private) {
   function updateOutputs() {
     $scope.vis.params.outputs.forEach(function (output) {
       try {
-        const func = Function("metrics", "return " + output.formula);
-        output.value = func(metrics) || "?";
+        const func = Function('metrics', 'return ' + output.formula);
+        output.value = func(metrics) || '?';
       } catch (e) {
         output.value = '?';
       }
