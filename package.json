@@ -1,7 +1,7 @@
 {
   "name": "extended_metric_vis",
   "version": "0.1.2",
-  "description": "Add Font Color Option to existing Extended Metrics",
+  "description": "Add Font Color Option to existing Extended Metrics. Plans are to add individual Styling for each metrics. ",
   "main": "index.js",
   "kibana": {
      "version": "5.0.1"
